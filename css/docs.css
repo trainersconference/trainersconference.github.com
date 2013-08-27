@@ -718,8 +718,8 @@ li.sfHover > a > .sf-sub-indicator {
 
 
 .tringle { background:url(../images/tringle.png); width:20px; height:13px; position: absolute; bottom:0px; left:15px; z-index:999}
-.featured { background:url(../images/featured.png); width:50px; height:46px; position: absolute; top:-5px; right:25px; z-index:999;}
-.new { background:url(../images/new.png); width:50px; height:46px; position: absolute; top:-5px; right:15px; z-index:999;}
+.external-ribbon { background:url(../images/external-ribbon.png); width:50px; height:46px; position: absolute; top:-5px; right:25px; z-index:999;}
+.internal-ribbon { background:url(../images/internal-ribbon.png); width:50px; height:46px; position: absolute; top:-5px; right:15px; z-index:999;}
 
 .view-first img {
    -webkit-transition: all 0.2s linear;
