@@ -21,17 +21,32 @@ h1,h2,h3,h4,h5,h6 {
   height: 1px;
   border-top: 1px dashed #cdcdcd;
 }*/
+.title h1{
+  /*text-shadow: 0 1px 3px rgba(100,100,100,.4), 0 0 30px  rgba(100,100,100,.075);*/
+}
+.title .desc h4 {
+  padding-top: 0;
+  margin-top: -15px;
+  padding-left: 260px;
+}
 
 .title .span2 {
-  width: 170px;
+  width: 160px;
+  margin-left: 0;
 }
 .title .span4 {
-  width: 380px;
-  padding-left: 30px;
+  padding-top: 20px;
+  width: 400px;
+  padding-left: 60px;
+}
+.title .span4 h1 {
+  font-size: 32px;
 }
 .title .span3 {
+  padding-top: 20px;
   width: 190px;
 }
+
 .program-list .coffee-break {
   background-color: #eafdea;
 }
@@ -62,14 +77,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 #filters button.btn-inverse {
   color: #444;
-}
-.title h1{
-  /*text-shadow: 0 1px 3px rgba(100,100,100,.4), 0 0 30px  rgba(100,100,100,.075);*/
-}
-.title .desc h4 {
-  padding-top: 0;
-  margin-top: -15px;
-  padding-left: 215px;
 }
 
 .internal .descr, .external .descr {
@@ -106,7 +113,9 @@ body {
   height: auto;
   width: auto;
 }
-
+.ss-logo {
+  margin: -11px 0 -4px -40px;
+}
 .twitter-widget {
   margin: 40px 20px 0 20px;
   padding: 10px;
