@@ -1,1 +1,1 @@
-Trainers Conference web site
+Trainers Conference web site http://trainersconference.com.ua
